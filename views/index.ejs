@@ -1,0 +1,17 @@
+
+<%-include("partials/header");%>
+    <h1>hello</h1>
+   
+    <p><%=homeStartingContent%></p>
+<%inserted.forEach(function(post){%>
+
+
+
+
+    <h1><%=post.title%></h1>
+    <p><%=post.post%></p>
+<%})%>
+
+
+
+<%-include("partials/footer");%>
